@@ -1,0 +1,44 @@
+body {
+  background-image: url("./img/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card {
+  margin: 20px;
+  width: 20rem;
+  border-radius: 1em !important;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+}
+.btn-circle {
+  border-radius: 50%;
+}
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+.nublado {
+  background-image: url(./img/nublado.jpeg);
+  border-radius: 10px;
+}
+.llovizna {
+  background-image: url(./img/llovizna.jpg);
+  border-radius: 10px;
+}
+.despejado {
+  background-image: url("./img/despejado.jpg");
+  border-radius: 10px;
+  background-size: cover;
+}
+.iconoClima {
+  background-color: black;
+  border-radius: 50%;
+}
