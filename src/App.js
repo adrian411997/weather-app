@@ -9,11 +9,6 @@ console.log(apiKey);
 function App() {
   const [cities, setCities] = useState([]);
 
-  function agregar(city) {
-    setCities((prevCities) => {
-      return [city, ...prevCities];
-    });
-  }
   function eliminar(id) {
     setCities((oldCities) => oldCities.filter((c) => c.id !== id));
   }

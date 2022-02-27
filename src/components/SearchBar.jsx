@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Nav from "./Nav.jsx";
 import "./Nav.css";
 
@@ -13,12 +13,12 @@ export default function SearchBar({ onSearch }) {
     input.value = "";
   }
   return (
-    <header class="header">
+    <header className="header">
       <div className="w-100 content text-light">
         <Nav />
         <div className="col-6 text-right">
           <form onSubmit={buscar}>
-            <div class="">
+            <div className="">
               <input
                 type="text"
                 className="input"
